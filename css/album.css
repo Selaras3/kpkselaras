@@ -1,0 +1,115 @@
+body {
+  background-color: antiquewhite;
+}
+.navbar {
+  background-color: #d8d8d6;
+}
+.navbar img {
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+  margin-right: -1.5rem;
+  margin-left: -3.5rem;
+}
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.jadwal {
+  color:red;
+  text-align: center;
+}
+.iklan {
+  color:#244b4b;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.jumbotron h1 {
+  font-weight: 500;
+}
+
+@media(max-width:756px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+  }
+  .navbar img {
+    margin-left: -1rem;
+  }
+
+}
+
+@media(max-width:450px) {
+  .navbar img {
+    margin-left: -1rem;
+  }
+  
+  .ndai2 img {
+    width: 100px;
+    height: 100px;
+  }
+  .row {
+    position: relative;
+    bottom: 1rem;
+    height: 1150px;
+  }
+  
+}
+footer {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+  border-top: 10px;
+}
+
+.carousel {
+  top: 2.5rem;
+  left: 5%;
+  width: 90%;
+}
+.carousel-item img {
+  border-radius: 15px;
+}
+
+.ndai2 {
+  display: flex;
+  width: 97%;
+  background-color: #ff002b;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  border-radius: 5px;
+}
+.col-md-4 img {
+  height: 80px;
+  width: 80px;
+}
+.ndai {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.ndai2 h1 {
+  padding-top: 2rem;
+  color: #000000;
+}
+.ndai3 img {
+  width: 33%;
+  height: 40%;
+}
+.row {
+  background-color: antiquewhite;
+}
+.ndai3 {
+  padding-top: 3rem;
+  background-color: antiquewhite;
+}
