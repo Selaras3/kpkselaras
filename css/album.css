@@ -23,10 +23,6 @@ body {
   background-color: #E9C46A;
   text-align: center;
 }
-.navbar svg {
-  color: #264653;
-  padding-top: .3rem;
-}
 .jadwal {
   text-align: center;
 }
@@ -68,10 +64,14 @@ body {
   
 }
 footer {
+  display: flex;
   padding-top: 3rem;
-  padding-bottom: 1rem;
 }
-
+.bagi {
+  position: relative;
+  text-align: end;
+  bottom: 2rem;
+}
 footer p {
   margin-bottom: .25rem;
   border-top: 10px;
